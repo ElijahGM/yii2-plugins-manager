@@ -11,11 +11,21 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": ">=2.0.6",
+        "components/highlightjs":"*",
+        "loveorigami/yii2-jsoneditor": "*",
+        "tpoxa/shortcodes": "dev-master"
     },
     "autoload": {
         "psr-4": {
             "esoftslimited\\plugins\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "esoftslimited\\plugins\\Bootstrap",        
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
