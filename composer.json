@@ -1,0 +1,21 @@
+{
+    "name": "esoftslimited/yii2-plugins-manager",
+    "description": "Plugins system as WP for Yii2 copied from loveorigami for learning purpose",
+    "type": "library",
+    "keywords": ["yii2","plugins","events","managers"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elijah Mwangi",
+            "email": "emwangi.g@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "esoftslimited\\plugins\\": ""
+        }
+    }
+}
